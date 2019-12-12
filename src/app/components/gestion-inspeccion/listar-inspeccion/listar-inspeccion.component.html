@@ -2,13 +2,13 @@
 
 
 
-    <div class="form-group">
+    <div class="form-group"><!--Se realiza un filtro de busqueda-->
         <div class="input-group">
             <div class="input-group-text bg-white">
                 <i class="fa fa-search"></i>
             </div>
             <input type="text" name="filtrar" class="form-control" placeholder="Buscar" [(ngModel)]="gestionInspeccionService.filtroInspeccion">
-        </div>
+        </div><!--Cuando utilizamos elngModel, debemos utilizar name="filtrar" -->
     </div>
 
 </form>
